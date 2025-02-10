@@ -3,15 +3,14 @@ from tkinter import Label,Frame, Entry, Button
 
 def calcula_imc():
     imc = float(peso.get())/(float(altura.get())* float(altura.get()))
-    print(f"Seu IMC é: {imc:.2f}")
     if imc < 18.5:
-        print("Você está abaixo do peso")
+        resultado['text'] = f"Seu IMC é: {imc:.2f}, Você está abaixo do peso"
     elif imc < 25:
-        print("Você está no peso normal")
+        resultado['text'] = f"Seu IMC é: {imc:.2f}, Você está no peso normal"
     elif imc < 30:
-        print("Você está acima do peso")
+       resultado['text'] = f"Seu IMC é: {imc:.2f}, Você está acima do peso"
     else:
-        print("Você está obeso")
+        resultado['text'] = f"Seu IMC é: {imc:.2f}, Você está obeso"
         
 janela = tk.Tk()
 
@@ -46,6 +45,8 @@ Button(frame, text='Calcular', borderwidth=3,command=calcula_imc).grid(
     row=4, 
     columnspan=2)
 
+resultado = Label(frame,font=("Arial", 10, "bold"))
+resultado.grid(column=1, row=5, columnspan=2)
 
 janela.title('Calculadora de IMC')
 janela.geometry("500x250")
