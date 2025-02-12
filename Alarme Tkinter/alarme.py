@@ -10,7 +10,7 @@ def alarme():
         time.sleep(1)
         alarm_time = datetime.datetime.now().strftime('%H:%M:%S')
         if set_alarm == alarm_time:
-            os.system('afplay alarm')
+            os.system('mpg123 alarm.mp3')#colocar nome do alarme!!!
 
 # Criação da janela principal
 root = tk.Tk()
