@@ -10,3 +10,33 @@
 # O usuário deve poder apagar todas as tarefas do arquivo.
 # Sair:
 # O programa deve permitir que o usuário saia do sistema.
+
+print("SEJA BEM VINDO")
+print("Gerenciador de Lista de Tarefas")
+
+while True:
+    print("\n1 - Adicionar Tarefa")
+    print("2 - Visualizar Tarefas")
+    print("3 - Limpar Lista de Tarefas")
+    print("4 - Sair")
+    opcao = input("Escolha uma opção: ")
+    if opcao == "1":
+        tarefa = input("Digite a tarefa que deseja adicionar: ")
+        with open('tarefas.txt', "a") as arquivo:
+            arquivo.write(f'-> {tarefa}\n')
+            print("Tarefa adicionada com sucesso!")
+    if opcao == "2":
+        with open('tarefas.txt', "r") as arquivo:
+            print(arquivo.read())
+    if opcao == "3":
+        with open('tarefas.txt', "w") as arquivo:
+            arquivo.write('')
+            print("Lista de tarefas limpa com sucesso!")
+    if opcao == "4":
+        print("Obrigado por usar o Gerenciador de Lista de Tarefas!")
+        break
+print("Fim do programa")
+
+
+
+
