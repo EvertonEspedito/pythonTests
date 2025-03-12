@@ -1,1 +1,5 @@
-print("Oi")
+print("Ambientes Virtuais Servem para controlar versões!")
+print("Para instalar todos os pacotes necessários, use o comando: pip install -r requirements.txt")
+print("Para executar o programa, use o comando: python main.py")
+print("Para iniciar o ambiente: python -m venv <nome do Ambiente")
+print("Para iniciar o ambiente: <nome_do_ambiente>\Scripts\activate")
