@@ -30,3 +30,5 @@ arquivo.close()
 with open(caminho, 'w') as arquivo:
     arquivo.write('Escrevendo no arquivo\n')
     arquivo.write('Escrevendo mais uma linha\n')
+
+    
