@@ -15,7 +15,8 @@ desfazer = []
 
 while True:
     print('Lista de Tarefas')
-    print(f'Tarefas: {toDo}')
+    for taredas in toDo:
+        print(f'- {taredas}')
     print('1 - Adicionar Tarefa')
     print('2 - Desfazer')
     print('3 - Refazer')
