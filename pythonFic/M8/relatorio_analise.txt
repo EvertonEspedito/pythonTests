@@ -1,0 +1,46 @@
+
+1 - Análise Descritiva
+Média de Idade:  41 anos
+Média da Renda Mensal: 5712.33 Reais
+Média de Compras Online: 15 Compras
+Média de Satisfação do Cliente: 4.70
+
+2 - Análise de Correlação
+Correlação entre Renda Mensal e Número de Compras Online:
+                          Renda Mensal  Número de Compras Online
+Renda Mensal                  1.000000                 -0.077746
+Número de Compras Online     -0.077746                  1.000000
+
+
+3. Análise por Gênero
+Média de Idade por Gênero:
+Homem: 41 anos
+Mulher: 42 anos
+Não-Binário: 40 anos
+
+4. Visualizações Gráficas
+ 4.1 Gráfico de Dispersão: Renda Mensal vs Número de Compras Online:
+
+ 4.2 Gráfico de Barras: Média de Satisfação por Gênero:
+5. Filtragem de Dados Foi realizado um filtro para encontrar os clientes com mais de 30 anos e menos de 5 compras online. O resultado foi o seguinte:
+    ID       Nome  Idade       Gênero          Cidade  Renda Mensal  Número de Compras Online  Satisfação do Cliente (1-10)
+5    6   Pessoa_6     38     Feminino        Salvador          5263                         2                             5
+16  17  Pessoa_17     39  Não-Binário  Belo Horizonte          6237                         0                             6
+20  21  Pessoa_21     47     Feminino        Curitiba          8892                         4                             6
+21  22  Pessoa_22     55    Masculino        Salvador          8028                         4                             8
+26  27  Pessoa_27     39     Feminino        Salvador          7035                         2                             5
+30  31  Pessoa_31     59    Masculino  Rio de Janeiro          5718                         2                             1
+35  36  Pessoa_36     61  Não-Binário        Curitiba          9277                         0                             9
+41  42  Pessoa_42     56    Masculino  Rio de Janeiro          4011                         3                             1
+50  51  Pessoa_51     45    Masculino        Salvador          3343                         2                             6
+56  57  Pessoa_57     52  Não-Binário       São Paulo          6236                         1                             6
+58  59  Pessoa_59     34    Masculino  Rio de Janeiro          9655                         2                             2
+
+
+6. Análise de Outliers Foi verificado se existem outliers na Renda Mensal, utilizando o intervalo interquartílico (IQR
+
+Outliers na Renda Mensal:
+
+Empty DataFrame
+Columns: [ID, Nome, Idade, Gênero, Cidade, Renda Mensal, Número de Compras Online, Satisfação do Cliente (1-10)]
+Index: []

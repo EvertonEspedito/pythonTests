@@ -1,0 +1,61 @@
+ID,Nome,Idade,Gênero,Cidade,Renda Mensal,Número de Compras Online,Satisfação do Cliente (1-10)
+1,Pessoa_1,56,Feminino,Curitiba,2163,24,9
+2,Pessoa_2,46,Feminino,Belo Horizonte,3498,17,4
+3,Pessoa_3,32,Feminino,Belo Horizonte,9494,22,1
+4,Pessoa_4,60,Feminino,São Paulo,2995,29,4
+5,Pessoa_5,25,Feminino,Belo Horizonte,4804,9,1
+6,Pessoa_6,38,Feminino,Salvador,5263,2,5
+7,Pessoa_7,56,Feminino,Belo Horizonte,6732,6,4
+8,Pessoa_8,36,Masculino,São Paulo,3353,27,8
+9,Pessoa_9,40,Não-Binário,Salvador,8085,15,8
+10,Pessoa_10,28,Feminino,Rio de Janeiro,2791,25,7
+11,Pessoa_11,28,Feminino,Belo Horizonte,5081,15,3
+12,Pessoa_12,41,Feminino,São Paulo,9054,24,1
+13,Pessoa_13,53,Feminino,Rio de Janeiro,8780,19,1
+14,Pessoa_14,57,Feminino,Rio de Janeiro,3136,27,3
+15,Pessoa_15,41,Feminino,Curitiba,5196,16,6
+16,Pessoa_16,20,Não-Binário,Salvador,2198,1,7
+17,Pessoa_17,39,Não-Binário,Belo Horizonte,6237,0,6
+18,Pessoa_18,19,Feminino,São Paulo,2354,15,6
+19,Pessoa_19,41,Não-Binário,Curitiba,9664,29,6
+20,Pessoa_20,61,Masculino,Salvador,7355,11,3
+21,Pessoa_21,47,Feminino,Curitiba,8892,4,6
+22,Pessoa_22,55,Masculino,Salvador,8028,4,8
+23,Pessoa_23,19,Masculino,Salvador,6749,26,2
+24,Pessoa_24,38,Feminino,Belo Horizonte,6672,22,5
+25,Pessoa_25,50,Não-Binário,Salvador,3207,8,1
+26,Pessoa_26,29,Masculino,Curitiba,7291,8,1
+27,Pessoa_27,39,Feminino,Salvador,7035,2,5
+28,Pessoa_28,61,Masculino,Belo Horizonte,6431,18,3
+29,Pessoa_29,42,Masculino,Belo Horizonte,5010,15,4
+30,Pessoa_30,44,Masculino,Curitiba,1702,15,3
+31,Pessoa_31,59,Masculino,Rio de Janeiro,5718,2,1
+32,Pessoa_32,45,Não-Binário,Rio de Janeiro,5889,19,1
+33,Pessoa_33,33,Masculino,Salvador,3827,23,5
+34,Pessoa_34,32,Masculino,São Paulo,9504,21,6
+35,Pessoa_35,64,Masculino,Salvador,4431,23,3
+36,Pessoa_36,61,Não-Binário,Curitiba,9277,0,9
+37,Pessoa_37,20,Masculino,Curitiba,1697,23,5
+38,Pessoa_38,54,Masculino,Curitiba,8625,19,8
+39,Pessoa_39,24,Não-Binário,Curitiba,3430,10,1
+40,Pessoa_40,38,Não-Binário,Curitiba,7787,16,5
+41,Pessoa_41,26,Não-Binário,Belo Horizonte,5782,7,3
+42,Pessoa_42,56,Masculino,Rio de Janeiro,4011,3,1
+43,Pessoa_43,35,Não-Binário,Curitiba,2159,5,4
+44,Pessoa_44,21,Não-Binário,São Paulo,4311,7,5
+45,Pessoa_45,42,Masculino,São Paulo,8598,19,7
+46,Pessoa_46,31,Não-Binário,São Paulo,8046,29,1
+47,Pessoa_47,26,Masculino,São Paulo,3486,2,3
+48,Pessoa_48,43,Feminino,Belo Horizonte,9838,15,2
+49,Pessoa_49,19,Não-Binário,São Paulo,4411,29,9
+50,Pessoa_50,37,Feminino,Curitiba,3234,24,10
+51,Pessoa_51,45,Masculino,Salvador,3343,2,6
+52,Pessoa_52,64,Não-Binário,São Paulo,4476,24,10
+53,Pessoa_53,24,Masculino,Belo Horizonte,3459,28,3
+54,Pessoa_54,61,Feminino,Belo Horizonte,7259,17,8
+55,Pessoa_55,25,Masculino,São Paulo,8194,13,8
+56,Pessoa_56,64,Não-Binário,Salvador,3885,17,2
+57,Pessoa_57,52,Não-Binário,São Paulo,6236,1,6
+58,Pessoa_58,31,Feminino,Belo Horizonte,3302,21,7
+59,Pessoa_59,34,Masculino,Rio de Janeiro,9655,2,2
+60,Pessoa_60,53,Não-Binário,Curitiba,9620,15,10
