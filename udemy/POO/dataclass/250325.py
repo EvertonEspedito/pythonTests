@@ -11,10 +11,10 @@ from dataclasses import dataclass
 @dataclass
 class Pessoa:
     nome: str
-    idade: int
+    sobrenome: str
  
  
 if __name__ == '__main__':
-    p1 = Pessoa('Luiz', 30)
-    p2 = Pessoa('Luiz', 30)
+    p1 = Pessoa('Everton', 'Espedito')
+    p2 = Pessoa('Luiz', 'José')
     print(p1 == p2)
