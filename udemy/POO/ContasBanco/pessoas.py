@@ -1,4 +1,6 @@
-class Pessoa:
+import contas
+
+class Pessoas:
     def __init__(self, nome:str, idade: int) -> None:
         self.nome = nome
         self.idade = idade
@@ -19,6 +21,12 @@ class Pessoa:
     def idade(self, idade: int):
         self._idade = idade 
 
-class Cliente(Pessoa):
+    def __repr__(self):
+        class_name = type(self).__name__
+        attrs = f'({self.nome!r} {self.idade!r})'
+        return f'{class_name}{attrs}'    
+
+class Cliente(Pessoas):
     def __init__(self, nome:str, idade: int) -> None:
         super().__init__(nome, idade)
+        self.conta: contas.Conta | None = None
