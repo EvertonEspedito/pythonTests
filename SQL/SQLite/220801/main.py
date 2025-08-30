@@ -32,7 +32,24 @@ coneccao.commit() # Confirmação da inserção dos dados
 cursor.execute(f'''
     DELETE FROM {TABLE_NAME} WHERE name = 'João';
 ''')
+
 coneccao.commit() # Confirmação da deleção do registro
+
+#SQL para atualizar um registro
+cursor.execute(f'''
+    UPDATE {TABLE_NAME} SET weight = 58.0 WHERE name = 'Ana';
+''')
+coneccao.commit() # Confirmação da atualização do registro
+
+# SQL para selecionar e exibir os registros restantes
+cursor.execute(f'''
+    SELECT * FROM {TABLE_NAME};
+''')
+registros = cursor.fetchall() # Recuperação de todos os registros
+for registro in registros:
+    print(registro) # Exibição de cada registro na tela
+
+
 
 cursor.close() # Fechamento do cursor
 coneccao.close() # Fechamento da conexão com o banco de dados
