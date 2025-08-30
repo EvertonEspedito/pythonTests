@@ -24,7 +24,8 @@ cursor.execute(f'''
     INSERT INTO {TABLE_NAME} (name, weight) VALUES
     ('Maria', 60.5),
     ('João', 75.0),
-    ('Ana', 55.3);
+    ('Ana', 55.3),
+    ('Everton', 67.2 );
 ''')
 coneccao.commit() # Confirmação da inserção dos dados
 
