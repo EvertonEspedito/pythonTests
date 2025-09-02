@@ -1,6 +1,7 @@
 
 import pandas as pd
 
+import matplotlib.pyplot as plt
 
 # Dados extraídos manualmente da imagem
 dados = [
@@ -41,5 +42,16 @@ ranking.insert(0, "Posição", ranking.index)
 ranking.to_csv("ranking.csv", index=False)
 
 print("Ranking salvo em 'ranking.csv'")
+
+# Top 10 do ranking
+top10 = ranking.head(10)
+
+plt.figure(figsize=(10,6))
+plt.barh(top10["Nome"], top10["Total"], color="skyblue")
+plt.xlabel("Pontuação")
+plt.ylabel("Nome")
+plt.title("Ranking de Pontos (Top 10)")
+plt.gca().invert_yaxis()  # Para o maior ficar em cima
+plt.show()
 
 print(ranking)
